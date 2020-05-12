@@ -1,0 +1,128 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contato - Marieta Salgasdos</title>
+<link href="css/cssreset.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/degrades.css" rel="stylesheet" type="text/css">
+<!-- Begin JavaScript -->
+<script type="text/javascript" src="js/form.js"></script>
+<!-- End JavaScript -->
+<style>
+#cep{width:80px;}
+#cidade{width:160px;}
+#enviar,#limpar{color:#333;width:135px;}
+#enviar:active,#limpar:active{background:#FFF688;color:#FFD625;}
+#enviar:hover,#limpar:hover{color:#FFD625;}
+.botton{clear:both;height:150px;}
+.box1,box2{display:block;float:left;padding:20px;position:relative;width:440px;}
+input,textarea{background:#FFF;border:1px dashed #F04F54;padding:2px;width:300px;}
+table,tr,td{font:bold 14px Verdana, Geneva, sans-serif;margin:2px;padding:2px;}
+textarea{height:50px;}
+</style>
+<!-- Copyright 2000, 2001, 2002, 2003 Macromedia, Inc. All rights reserved. -->
+</head>
+<body>
+<div class="body">
+<!--Inicio da pagina-->
+<!--Inicio das Bandeiras-->
+<div class="bandeiras"></div>
+<!--Inicio do menu1-->
+
+<!--Inicio do cabeçario-->
+<div class="topbar">
+<!--Logo-->
+<div class="logo"></div>
+<!--Cabeçario-->
+<div class="bar">
+<!--Menu-->
+<div class="menubar">
+<div class="menu1">
+<a href="index.html"><div class="btn">HOME</div></a>
+<a href="sobre.html"><div class="btn">Sobre</div></a>
+<a href="produtos.html"><div class="btn">Produtos</div></a>
+<a href="pedidos.html"><div class="btn">Pedidos</div></a>
+<a href="contato.html"><div class="sel">Contato</div></a>
+</div>
+<div class="delivery"></div>
+</div>
+<!--Titulo-->
+<div class="title"></div>
+<!--Fim do titulo-->
+</div>
+</div>
+<!--Fim do cabeçario-->
+<!--corpo-->
+<div class="box1">
+<form action="email.php" method="post" id="contactform" target="frame" name="contato"><br>
+<table width="300" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <td>Nome:</td>
+    <td><input name="nome" placeholder="Nome" class="txt" onFocus="valida(this)" id="campo" value="&nbsp;"/><br></td>
+  </tr>
+  <tr>
+    <td>E-mail:</td>
+    <td><input name="email" placeholder="E-mail" class="txt"  onFocus="valida(this)" id="campo" value="&nbsp;"/><br></td>
+  </tr>
+  <tr>
+    <td>Fone:</td>
+    <td><input name="fone" placeholder="fone" class="txt" onFocus="valida(this)" id="campo" value="&nbsp;"/><br></td>
+  </tr>
+  <tr>
+    <td>Endereço</td>
+    <td><input name="endereco" placeholder="endereco" class="txt" onFocus="valida(this)" id="campo" value="&nbsp;"/><br></td>
+  </tr>
+  <tr>
+    <td>Assunto:</td>
+    <td><input name="assunto" placeholder="Assunto" class="txt" onFocus="valida(this)" id="campo" value="&nbsp;"/><br></td>
+  </tr>
+  <tr>
+    <td>Comentário:</td>
+    <td><textarea name="msg" placeholder="comentário" class="txt" onFocus="valida(this)" id="campo"></textarea><br></td>
+  </tr>
+  
+</table>
+
+                    <input name="site" type="hidden" value="marietasalgados.com.br" class="txt" />
+                    <input name="opt" type="hidden" value="contato@marietasalgados.com.br" class="txt" />      
+                    <input type="submit" value="Enviar" class="button" id="campo"/>                               
+                </form>
+</div>
+<div class="box2">
+<iframe style="border: 1px dashed #F04F54;" width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Sen.+Milton+Campos,+153+-+Tim%C3%B3teo+-+MG&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=66.234409,135.263672&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Sen.+Milton+Campos,+153+-+Tim%C3%B3teo+-+Minas+Gerais,+35180-073&amp;t=m&amp;ll=-19.541753,-42.634764&amp;spn=0.02831,0.030127&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+</div>
+<div class="botton">
+<div class="linha"></div>
+<div class="box1">
+<p>Matriz:<br>
+Avenida Senador Milton Campos, 153<br>
+Quitandinha - Timóteo  - MG<br>
+CEP.: 35.180-073</p>
+<br>
+<p style="text-align:left"><img src="imagens/contato.png"/>&nbsp;SAC - Servi&ccedil;o de Atendimento ao Cliente</p>
+<p style="font-family:Verdana, Geneva, sans-serif; font-weight: bold; color:#FF0000; text-align: left;">31 3849.6884</p>
+</div>
+<div class="box2"><br><br>
+
+
+<table width="400" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+    <td><img src="imagens/distribuidor-autorizado.png" width="155" height="60" alt="Distribuidor autorizado"></td>
+  </tr>
+  <tr>
+    <td><p style="text-align:left">	Avenida Abido Saad, 900 - Jacaraípe - ES</p>
+<p style="font-family:Verdana, Geneva, sans-serif; font-weight: bold; color:#FF0000; text-align: left;">27 3066.8923</p></td>
+  </tr>
+</table>
+
+</div>
+</div>
+<!--corpo-->
+<!--Rodape-->
+<!--Barra-->
+<div class="bottonbar">Avenida Senador Campos, 153 - Quitandinha - Timóteo - MG - CEP.: 35.180-073 <span style=" position:absolute; right:10px; text-align:right;">SAC - Serviço de Atendimento ao Cliente <strong >31 3849.6884</strong></span></div>
+<!--Fim da pagina-->
+</div>
+</body>
+</html>

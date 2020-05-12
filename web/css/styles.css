@@ -1,0 +1,179 @@
+@charset "utf-8";
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+body {
+	background-image: url(../imagens/bkg.jpg);
+	background-color: #FFF;
+	background-repeat: repeat;
+}
+a{
+	color: #333;
+	text-transform: none;
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	
+}
+.body{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	position: absolute;
+	clear: both;
+	padding: 0px;
+	background: rgb(255,242,18); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,242,18,1) 0%, rgba(246,180,14,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,242,18,1)), color-stop(100%,rgba(246,180,14,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,242,18,1) 0%,rgba(246,180,14,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,242,18,1) 0%,rgba(246,180,14,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,242,18,1) 0%,rgba(246,180,14,1) 100%); /* IE10+ */
+	background: radial-gradient(center, ellipse cover,  rgba(255,242,18,1) 0%,rgba(246,180,14,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff212', endColorstr='#f6b40e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin-left: -450px;
+	left: 50%;
+	box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	-ms-box-shadow: 1px 1px 20px 0px #000;
+	-o-box-shadow: 1px 1px 20px 0px #000;
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+}
+.bandeiras {
+	background-image: url(../imagens/bandeiras.png);
+	background-repeat: repeat-x;
+	clear: both;
+	height: 50px;
+	width: 100%;
+}
+.menu{
+	clear: both;
+	width: 800px;
+	float: left;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+	padding: 5px;
+	cursor: pointer;
+}
+.topbar{
+	clear: both;
+}
+.logo{
+	height: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	background-image: url(../imagens/logo.png);
+}
+.topbar .bar {
+	height: 200px;
+	position: relative;
+}
+.menubar{
+	height: 150px;
+}
+.menubar .menu1{
+	height: 60px;
+	width: 450px;
+	position: relative;
+	float: left;
+	top: 40px;
+	left: 80px;
+	padding-left: 5px;
+}
+.menubar .sel{
+	height: 70px;
+	z-index: 66666;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	margin-left: -5px;
+	color: #FFF;
+	line-height:70px;
+	box-shadow:0px 0px 5px 0px #666;
+}
+.btn, .sel{
+	width: 82px;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	font-weight: bold;
+}
+.menubar .btn{
+	height: 45px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #ED3237;
+	border-bottom-color: #ED3237;
+	line-height:45px;
+}
+.btn:hover, .sel:hover, .menu a:hover{
+	color: #FFF688;
+}
+.delivery{
+	height: 70px;
+	width: 180px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../imagens/delivery.png);
+	position: relative;
+	top: 37px;
+	margin-left: 40px;
+}
+.title{
+	background-image: url(../imagens/title.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 50px;
+	position: relative;
+}
+.bottoncontent{
+	background-image: url(../imagens/bgbotton.png);
+	background-color: #FFF688;
+	height: 200px;
+	clear: both;
+	padding: 10px;
+}
+.linha{
+	background-image: url(../imagens/linha.png);
+	height: 10px;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.bottoncontent .item{
+	padding: 10px;
+	height: 165px;
+	float: left;
+	border-right-width: 2px;
+	border-right-style: dashed;
+	border-right-color: #D40E1E;
+	line-height: 165px;
+	text-align: center;
+	vertical-align: middle;
+}
+.bottonbar{
+	height: 50px;
+	clear: both;
+	line-height: 50px;
+	color: #FFF;
+	padding: 10px;
+	font-size: 12px;
+}

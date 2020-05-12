@@ -1,0 +1,240 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sobre - Marieta Salgasdos</title>
+<link href="css/cssreset.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/degrades.css" rel="stylesheet" type="text/css">
+<style>
+.line1, .line2{
+	display: block;
+	width: 100%;
+	clear: both;
+	float: right;
+	position: relative;
+	cursor: default;
+}
+.line1{
+	margin-top: 25px;
+	height: 100px;
+}
+.line2{
+	height: 700px;
+	margin-bottom: 100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #FFF;
+}
+
+.line1 .menu {
+	width: 480px;
+	float: left;
+	margin-left: -240px;
+	left: 50%;
+	position: absolute;
+}
+.line1 .menu div[id^="td"] {
+	height: 60px;
+	width: 150px;
+	background-image: url(imagens/sobre_btn.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: left;
+	padding: 0px;
+	line-height:60px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 12px;
+}
+.line1 .menu div[id^="td"]:active{
+	color: #D40E1E;
+}
+.line2 div[id^="div"] {
+	float: left;
+	position: relative;
+	height: 200px;
+	width: 450px;
+	visibility: visible;
+	display: block;
+	text-align: justify;
+	vertical-align: middle;
+	left: 210px;
+	right: 210px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	font-size: 14px;
+}
+.line2 div[id^="div"] h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+</style>
+<script>
+function AbreAba(a) {
+    var b = document.getElementsByTagName('div').length;
+    var c = "";
+    var d = "";
+    for (var i = 1; i < b + 1; i++) {
+        c = "div" + i;
+        d = "td" + i;
+        document.getElementById(c).style.display = "none";
+        document.getElementById(c).className = "div";
+        if (c == a) {
+            document.getElementById(a).style.display = "block";
+        }
+    }
+}
+</script>
+<!-- Copyright 2000, 2001, 2002, 2003 Macromedia, Inc. All rights reserved. -->
+</head>
+<body onLoad="AbreAba('div1')">
+<div class="body">
+<!--Inicio da pagina-->
+<!--Inicio das Bandeiras-->
+<div class="bandeiras"></div>
+<!--Inicio do menu1-->
+
+<!--Inicio do cabeçario-->
+<div class="topbar">
+<!--Logo-->
+<div class="logo"></div>
+<!--Cabeçario-->
+<div class="bar">
+<!--Menu-->
+<div class="menubar">
+<div class="menu1">
+<a href="index.html"><div class="btn">HOME</div></a>
+<a href="sobre.html"><div class="btn">Sobre</div></a>
+<a href="produtos.html"><div class="sel">Produtos</div></a>
+<a href="pedidos.html"><div class="btn">Pedidos</div></a>
+<a href="contato.html"><div class="btn">Contato</div></a>
+</div>
+<div class="delivery"></div>
+</div>
+<!--Titulo-->
+<div class="title"></div>
+<!--Fim do titulo-->
+</div>
+</div>
+<!--Fim do cabeçario-->
+<div class="line1">
+	<div class="menu">
+	  <a onClick="AbreAba('div1')"><div id="td1">Fast Food</div></a>
+		<a onClick="AbreAba('div2')"><div id="td2">Escolar</div></a>
+		<a onClick="AbreAba('div3')"><div id="td3">Mini Buffet</div></a>
+	</div>
+</div>
+<div class="line2">
+	<div id="div1">
+    <h3>Linha Fast Food</h3><br>
+    <p>É uma linha de salgados indicada para lanchonetes e estabelecimentos comerciais.</p>
+    <br><br>
+    <table width="600" border="1" cellspacing="1" cellpadding="0">
+  <tr>
+    <td width="106"><img src="produtos/coxinha.png" width="102" height="102" alt="Coxinha Comum"></td>
+ <td width="103"><img src="produtos/coxinha-catupiry.png" width="102" height="102" alt="Coxinha com catupiry"></td>
+ <td width="101"><img src="produtos/kibe.png" width="102" height="102" alt="Kibe Recheado"></td>
+ <td width="101"><img src="produtos/espetinho.png" width="102" height="102" alt="Espetinho de frango"></td>
+ <td width="101"><img src="produtos/pastel assado.png" width="102" height="102" alt="Pastel Assado"></td>
+  </tr>
+  <tr>
+    <td width="106"><img src="produtos/bolinho de mandioca.png" width="102" height="102" alt="Bolinho de mandioca"></td>
+ <td width="103"><img src="produtos/croquete.png" width="102" height="102" alt="Croquete"></td>
+ <td width="101"><img src="produtos/empada com catupiry.png" width="102" height="102" alt="Empada com catupiry"></td>
+ <td width="101"><img src="produtos/EMPADA DE FRANGO.png" width="102" height="102" alt="Empada de Frango"></td>
+ <td width="101"><img src="produtos/enrrolado.png" width="102" height="102" alt="Enrolado de salsicha"></td>
+    <td width="67">&nbsp;</td>
+  </tr>
+  <tr>
+       <td width="106"><img src="produtos/esfirra.png" width="102" height="102" alt="Esfirra de Carne"></td>
+ <td width="103"><img src="produtos/hamburguer assado.png" width="102" height="102" alt="Hamburguer de carne"></td>
+ <td width="101"><img src="produtos/hotdog assado.png" width="102" height="102" alt="Hot dog assado"></td>
+ <td width="101"><img src="produtos/mini pizza de frango.png" width="102" height="102" alt="Mini pizza de frango"></td>
+ <td width="101"><img src="produtos/mini pizza.png" width="102" height="102" alt="Mini pizza de presunto"></td>
+  </tr>
+  <tr>
+        <td width="106"><img src="produtos/pao de queijo.png" width="102" height="102" alt="Pão de queijo"></td>
+ <td width="103"><img src="produtos/pastel de queijo.png" width="102" height="102" alt="Pastel de quijo"></td>
+ <td width="101"><img src="produtos/pastel portugues.png" width="102" height="102" alt="Pastel português"></td>
+ <td width="101"><img src="produtos/pizza cone.png" width="102" height="102" alt="Pizza Cone"></td>
+ <td width="101"><img src="produtos/rocombole de pizza.png" width="102" height="102" alt="Rocombole de Pizzza"></td>
+  </tr>
+  <tr>
+     <td width="106"><img src="produtos/rocombole.png" width="102" height="102" alt="Rocombole de frango"></td>
+ <td width="103"><img src="produtos/tortinha de frango.png" width="102" height="102" alt="Tortinha de Frango com catupiry"></td>
+ <td width="101"><img src="produtos/pastel portugues.png" width="102" height="102" alt="Pastel português"></td>
+ <td width="101"><img src="produtos/pizza cone.png" width="102" height="102" alt="Pizza Cone"></td>
+ <td width="101"><img src="produtos/rocombole de pizza.png" width="102" height="102" alt="Rocombole de Pizzza"></td>
+  </tr>
+</table>
+
+   
+
+	</div>
+    <div id="div2">
+      <h3>Linha Escolar</h3><br><br>
+      <p>Linha Ideal para escolas e instituições de ensino.
+      </p><br><br>
+      <table width="600" border="0" cellspacing="1" cellpadding="1">
+  <tr>
+   <td width="127"><img src="produtos/pao de batata.png" width="101" height="102" alt="Pão de Batata"></td>
+   <td width="134"><img src="produtos/pao-cenoura.png" width="102" height="102" alt="Pão de cenoura"></td>
+   <td width="329"><img src="produtos/sanduiche natural.png" width="102" height="102" alt="Sanduíche natural"></td>
+  </tr>
+  <tr>
+   <td width="127"><img src="produtos/escondidinho de carne.png" width="101" height="102" alt="Escondidinho de Carne"></td>
+   <td width="134"><img src="produtos/escondidinho de frango.png" width="102" height="102" alt="Escondidinho de Frango"></td>
+  
+  </tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+    </div>
+    <div id="div3">
+      <h3>Mini Buffet</h3>
+      <br><br>
+       
+         <p>Disponível em embalagem prática, a linnha mini buffet de salgadinhos congelados pode ser encontrada em padarias e supermercados.</p>
+         <p>É ideal para confraternizações, festas ou para o dia a dia.</p>
+         <br>
+        
+<table width="530" border="1" cellspacing="1" cellpadding="1">
+  <tr>
+    <td>MINI - COXINHA</td>
+    <td>MINI - ENROLADO DE SALSICHA</td>
+  </tr>
+  <tr>
+    <td>MINI - CROQUETE</td>
+    <td>MINI - PASTEL PORTUGUÊS</td>
+  </tr>
+  <tr>
+    <td>MINI - KIBE</td>
+    <td>MINI - BOLINHA DE QUEIJO</td>
+  </tr>
+  <tr>
+    <td>MINI - PASTEL ASSADO DE FRANGO</td>
+    <td>MINI - EMPADA DE FRANGO</td>
+  </tr>
+  <tr>
+    <td>MINI - ESFIRRA DE CARME</td>
+    <td>MINI - ROCOMBOLE DE PIZZA</td>
+  </tr>
+  <tr>
+    <td>MINI - ROCOMBOLE DE FRANGO</td>
+    <td>MINI - ESPETO DE FRANGO</td>
+  </tr>
+</table>
+<img src="produtos/MINI_SALGADOS.png" width="450" height="436">
+</div>
+</div>
+<!--Rodape-->
+<!--Barra-->
+<div class="bottonbar">Avenida Senador Campos, 153 - Quitandinha - Timóteo - MG - CEP.: 35.180-073 <span style=" position:absolute; right:10px; text-align:right;">SAC - Serviço de Atendimento ao Cliente <strong >31 3849.6884</strong></span></div>
+<!--Fim da pagina-->
+</div>
+</body>
+</html>
